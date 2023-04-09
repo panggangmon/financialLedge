@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'register/register_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,10 +36,7 @@ class _MystatefulWidgetState extends State {
       'Index 0: Home',
       style: optionStyle,
     ),
-    Text(
-      'Index 1: Register',
-      style: optionStyle,
-    ),
+    registerPage(),
     Text(
       'Index 2: Chart',
       style: optionStyle,
